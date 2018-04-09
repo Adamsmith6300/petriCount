@@ -13,7 +13,7 @@ green = [(0,240,0),(10,255,10)]
 yellow = [(0,240,250),(10,255,255)]
 dot_colors = [blue]
 
-img = cv2.imread('./images/dots1.jpg')   
+img = cv2.imread('./images/dots2.jpg')   
 # apply medianBlur to smooth image before threshholding
 blur= cv2.medianBlur(img, 7) # smooth image by 7x7 pixels, may need to adjust a bit
 
